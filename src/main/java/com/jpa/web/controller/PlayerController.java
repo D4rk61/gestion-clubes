@@ -51,7 +51,7 @@ public class PlayerController {
     }
 
     @GetMapping("/asc")
-    public ResponseEntity<Page<Player>> getAllAsc(
+    publilsc ResponseEntity<Page<Player>> getAllAsc(
             @RequestParam(defaultValue = DEFAULT_PAGE) int page,
             @RequestParam(defaultValue = DEFAULT_ELEMENTS) int elements
     ) {
